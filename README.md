@@ -19,7 +19,7 @@ Thanks to [halirutan](https://github.com/halirutan) for his guidance on setting 
 	
 ---
 
-##![doc image](http://i.stack.imgur.com/erf8e.png) Detailed Usage
+## ![doc image](http://i.stack.imgur.com/erf8e.png) Detailed Usage
     RadarChart[{y1,y2,y3,...}]
 generates a radar plot (also known as web, star, spider, cobweb or kiviat diagram) corresponding to a list of values. This type of chart is suitable for showing commonality and outliers across different variables. 
      RadarChart[{list1,list2,...}]
@@ -47,7 +47,7 @@ AxesLabel | None or Automatic or list | AxesLabel is an option for graphics func
 PlotLabel | None | Defines the title of the plot.
 Epilog | {} | Epilog is an option for graphics functions that gives a list of graphics primitives to be rendered after the main part of the graphics is rendered.  
 
-##Examples
+## Examples
     Needs["RadarChart`"]
     RadarChart[{1, 2, 4, 5, 3}, 
     ChartLegends -> {"Private Label Strawberry Juice"}, 
@@ -83,7 +83,7 @@ Compare survey results.
      
 ![Mathematica graphics](http://i.stack.imgur.com/WUH8c.png)
 
-##Neat Examples
+## Neat Examples
 
 Analyze and compare crime statistics across states.
 
@@ -114,7 +114,7 @@ Analyze and compare crime statistics across states.
                  
 ![Mathematica graphics](http://i.stack.imgur.com/5Vk7j.png)
 
-#Installation
+# Installation
 
 This package should work with Mathematica >8 if not using associations or datasets. The package was developed using mathematica 10.
 The installation is simple: Copy the `RadarChart` package directory into a location where *Mathematica* can find it. Usually this is the `Applications` directory in your `$UserBaseDirectory`. Just evaluate
@@ -123,7 +123,7 @@ The installation is simple: Copy the `RadarChart` package directory into a locat
 
 to see it. If there is an old installation of the `RadarChart`, remove it. Please find detailed steps below.
 
-###Automatic Installation for *Mathematica* 9 and above
+### Automatic Installation for *Mathematica* 9 and above
 
 We have set up [an installation script](https://raw.githubusercontent.com/catrasca/RadarChart/master/RadarChart/installer.m) that does all the steps, except deleting old installations, for you. If it finds an old installation, it will prompt you with the location and quit, so that you can remove the old installation. After removing the old files, just start it again and it will proceed through all the steps pointed out in the manual installation section. To start the installation script, simply call
 
@@ -131,9 +131,9 @@ We have set up [an installation script](https://raw.githubusercontent.com/catras
 
 After this, the package should be available in your mathematica instance.
 
-###Manual Installation
+### Manual Installation
 
-####Removing old Installations
+#### Removing old Installations
 
 Old installation packages can be found by simply searching directories in your `$Path`. 
 
@@ -145,7 +145,7 @@ Please remove old installation directories that appear after evaluating the comm
 
 for that, but note that on Windows this might fail, because there, some files are locked when *Mathematica* is running. In this case, close *Mathematica* and do it manually using an explorer.
 
-###Downloading, Extracting and Copying the New Version
+### Downloading, Extracting and Copying the New Version
 
 The easiest way is, to download the whole repository as zip file. Use [this master.zip](https://github.com/catrasca/RadarChart/archive/master.zip) or click the *Download ZIP* on the right side on this page.
 
@@ -167,10 +167,10 @@ Inside the extracted directory, you will find a subdirectory `RadarChart` which 
 
 Copy the whole `RadarChart` directory with all its content to your `Applications` folder under your `$UserBaseDiretory`. If everything is in place proceed to the next step.
 
-###Finishing the Installation
+### Finishing the Installation
 
 To make the package works, you can simply restart *Mathematica*.
 
-##![contact team](http://i.stack.imgur.com/tCbmW.png) Contact
+## ![contact team](http://i.stack.imgur.com/tCbmW.png) Contact
 
 If you find bugs or have any other questions, please [create a new issue](https://github.com/catrasca/RadarChart/issues) in the bug-tracker. 
